@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 1.8em;
 }
 
-a {
+a, button {
 	cursor: pointer;
 	text-decoration: none;
 }
@@ -106,6 +106,31 @@ a {
 .techs ol li {
 	display: inline;
 	padding: 25px;
+}
+
+.works {
+	overflow: auto;
+	width: 100%;
+	height: 330px;
+	background-color: #fff;
+}
+
+.works h5 {
+	letter-spacing: 3px;
+	margin-top: 120px;
+	font-weight: 400;
+	color: #0B0B0B;
+}
+
+.works p {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: #0B0B0B;
+	opacity: .8;
+	letter-spacing: 2px;
+	width: 600px;
+	margin-top: 30px;
 }
 
 footer {
