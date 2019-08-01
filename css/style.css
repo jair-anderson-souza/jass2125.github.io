@@ -61,7 +61,7 @@ a, button {
 }
 
 .about {
-	overflow: auto;
+	overflow: hidden;
 	width: 100%;
 	height: 330px;
 	background-color: #fff;
@@ -81,8 +81,9 @@ a, button {
 	color: #0B0B0B;
 	opacity: .6;
 	letter-spacing: 2px;
-	width: 600px;
+	width: 80%;
 	margin-top: 30px;
+	font-size: 1.0em;
 }
 
 .works {
