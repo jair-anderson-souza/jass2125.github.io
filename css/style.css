@@ -36,7 +36,6 @@ a, button {
 .presentation h3 {
 	font-size: 3.8em;
 	font-weight: 500;
-	margin-top: 10%;
 }
 
 .presentation p {
@@ -88,7 +87,7 @@ a, button {
 .works {
 	overflow: hidden;
 	width: 100%;
-	height: 430px;
+	height: 530px;
 	background-color: #fff;
 }
 
@@ -114,9 +113,23 @@ a, button {
 	text-align: center;
 	height: 300px;
 	width: 100%;
-	background-color: red;
+	margin-top: 30px;
 }
 
+.works .images img {
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 350px;
+	height: 260px;
+	/* padding: 10px; */
+	/* border: 1px solid green; */
+}
+
+.stack {
+	margin-top: 80px;
+}
 .stack h5 {
 	letter-spacing: 3px;
 	margin-top: 10px;
