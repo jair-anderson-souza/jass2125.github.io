@@ -288,7 +288,14 @@ footer p {
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 
+@media screen only (max-width: 620){
+	.about {
+		overflow: hidden;
+	}
+}
+
 @media only screen and (max-width: 400px) {
+	.works {}
 	.about {
 		overflow: auto;
 		width: 100%;
@@ -301,4 +308,35 @@ footer p {
 	.column {
 		width: 100%;
 	}
+}
+
+@media only screen and (max-width: 1024px) {
+	/* .works {
+		overflow: hidden;
+		width: 100%;
+		height: 530px;
+		background-color: #fff;
+	}
+	
+	.works .images {
+		text-align: center;
+		height: 500px;
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.works .images a {
+		width: 350px;
+		height: 260px;
+	}
+	
+	.works .images a img {
+		border-radius: 5px;
+		margin-top: 30px;
+		margin-left: 15px;
+		margin-right: 15px;
+		width: 500px;
+		height: 260px;
+	} */
+
 }
