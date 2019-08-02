@@ -44,6 +44,7 @@ a, button {
 	font-weight: 100;
 	text-align: center;
 	margin-top: 20px;
+	width: 80%;
 }
 
 .presentation button {
@@ -109,9 +110,9 @@ a, button {
 	margin-left: auto;
 	margin-right: auto;
 	color: #0B0B0B;
-	opacity: .8;
+	opacity: .6;
 	letter-spacing: 2px;
-	/* width: 600px; */
+	width: 80%;
 	margin-top: 30px;
 }
 
