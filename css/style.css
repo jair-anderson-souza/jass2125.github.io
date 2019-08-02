@@ -37,6 +37,9 @@ a, button {
 .presentation h3 {
 	font-size: 3.8em;
 	font-weight: 500;
+	/* margin-top: auto; */
+	margin-bottom: auto;
+
 }
 
 .presentation p {
