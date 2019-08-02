@@ -20,7 +20,7 @@ a, button {
 
 .presentation {
 	width: 100%;
-	min-height: 550px;
+	height: 550px;
 	margin: 0;
 	padding: 0;
 	background-color: #0B0B0B;
@@ -29,7 +29,7 @@ a, button {
 
 .presentation h1, h2, h3, h4, h5, h6 {
 	text-align: center;
-	margin-top: 275px;
+	margin-top: 150px;
 }
 
 .presentation h3 {
