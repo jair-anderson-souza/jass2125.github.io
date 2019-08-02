@@ -271,7 +271,7 @@ footer p {
 
 @media only screen and (max-width: 600px) {
 	.presentation {
-		height: 450px;
+		height: 550px;
 	}
 	.presentation h3 {
 		/* margin-top: 10px; */
