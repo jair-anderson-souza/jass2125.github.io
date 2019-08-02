@@ -20,7 +20,7 @@ a, button {
 
 .presentation {
 	width: 100%;
-	height: 90vh;
+	height: 80%;
 	margin: 0 auto;
 	padding: 0 auto;
 	background-color: #0B0B0B;
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 1.2em;
 	font-weight: 100;
 	text-align: center;
-	margin-top: 20px;
+	/* margin-top: 20px; */
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
@@ -67,6 +67,8 @@ h1, h2, h3, h4, h5, h6 {
 	color: #FFF;
 	font-size: 0.9em;
 	transition: .6s;
+	margin-bottom: 25vh;
+
 }
 
 .presentation button:hover {
@@ -269,10 +271,38 @@ footer p {
 	}
 } */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px){
 	.presentation {
-		height: 550px;
+		/* height: 25px; */
 	}
+	.presentation h3 {
+		/* margin-top: 10px; */
+		/* font-size: 2em; */
+	}
+	.presentation p {
+		/* font-size: 14px; */
+	}
+
+	.presentation button {
+		/* font-size: 10px; */
+		/* margin: auto;
+		display: block;
+		margin-top: 25px;
+		width: 180px;
+		height: 50px;
+		background-color: #E3256A;
+		border-radius: 50px;
+		font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+		color: #FFF;
+		font-size: 0.9em;
+		transition: .6s; */
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	/* .presentation {
+		height: 550vh;
+	} */
 	.presentation h3 {
 		/* margin-top: 10px; */
 		/* font-size: 2em; */
