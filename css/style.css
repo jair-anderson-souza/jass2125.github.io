@@ -45,6 +45,9 @@ a, button {
 	text-align: center;
 	margin-top: 20px;
 	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+
 }
 
 .presentation button {
@@ -273,7 +276,7 @@ a, button {
 
 .findme ol li {
 	display: inline;
-	padding: 23px;
+	padding: 20px;
 }
 
 footer {
