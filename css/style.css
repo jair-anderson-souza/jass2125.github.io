@@ -37,8 +37,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 3.8em;
 	font-weight: 500;
 	margin-top: 25vh;
-	/* margin-bottom: 0 auto;
-	margin-top: 0 auto;  */
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -48,7 +46,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 1.2em;
 	font-weight: 100;
 	text-align: center;
-	/* margin-top: 20px; */
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
@@ -73,6 +70,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .presentation button:hover {
 	transform: scale(1.1);
+	overflow: hidden;
+	/* background-color: rgb(205, 0, 0); */
+
+	background-color: #e31b22;
 }
 
 .about {
@@ -103,14 +104,12 @@ h1, h2, h3, h4, h5, h6 {
 .works {
 	overflow: hidden;
 	width: 100%;
-	/* height: 530px; */
 	background-color: #fff;
 }
 
 .works h5 {
 	letter-spacing: 3px;
 	margin-top: 8%;
-	/* margin-top: 120px; */
 	font-weight: 400;
 	color: rgb(46, 43, 43);
 }
@@ -128,9 +127,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .works .images {
 	text-align: center;
-	/* height: 300px; */
-	width: 100%;
+	width: 90%;
 	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .works .images a {
@@ -145,13 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-right: 15px;
 	width: 350px;
 	height: 260px;
-	/* padding: 10px; */
-	/* border: 1px solid green; */
 }
-
-/* .stack {
-	margin-top: 80px;
-} */
 
 .stack h5 {
 	letter-spacing: 3px;
@@ -188,12 +182,10 @@ h1, h2, h3, h4, h5, h6 {
 	float: left;
 	width: 33.33%;
 	height: 300px;
-	/* height: 5%; */
 	text-align: center;
 }
 
 .findme {
-	/* height: 200px; */
 	width: 100%;
 	color: #0B0B0B;
 }
@@ -215,7 +207,6 @@ h1, h2, h3, h4, h5, h6 {
 .findme ol li {
 	display: inline;
 	padding: 15px;
-	/* box-sizing: border-box; */
 }
 
 footer {
@@ -235,126 +226,3 @@ footer p {
 	color: #fff;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-/* @media only screen and (max-width: 600px) { */
-	/* .presentation {
-		width: 600px;
-	} */
-/* }  */
-
-/* @media screen and (width: 420px) { */
-	/* body {
-		width: 100%;
-	}
-
-	.presentation {
-		max-width: 100%;
-	}
-
-	.presentation {
-		max-width: 100%;
-		font-size: 10px;
-	} */
-	/* .about {
-		height: 200px;
-		width: 100%;
-		overflow: auto;
-	} */
-/* } */
-
-/* @media only screen and (max-width: 400px) {
-	.about {
-		overflow: auto;
-		width: 100%;
-		height: 330px;
-		background-color: #fff;
-	}
-} */
-
-@media only screen and (max-width: 500px){
-	.presentation {
-		/* height: 25px; */
-	}
-	.presentation h3 {
-		/* margin-top: 10px; */
-		/* font-size: 2em; */
-	}
-	.presentation p {
-		/* font-size: 14px; */
-	}
-
-	.presentation button {
-		/* font-size: 10px; */
-		/* margin: auto;
-		display: block;
-		margin-top: 25px;
-		width: 180px;
-		height: 50px;
-		background-color: #E3256A;
-		border-radius: 50px;
-		font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
-		color: #FFF;
-		font-size: 0.9em;
-		transition: .6s; */
-	}
-}
-
-@media only screen and (max-width: 600px) {
-	/* .presentation {
-		height: 550vh;
-	} */
-	.presentation h3 {
-		/* margin-top: 10px; */
-		/* font-size: 2em; */
-	}
-	.presentation p {
-		/* font-size: 14px; */
-	}
-
-	.presentation button {
-		/* font-size: 10px; */
-		/* margin: auto;
-		display: block;
-		margin-top: 25px;
-		width: 180px;
-		height: 50px;
-		background-color: #E3256A;
-		border-radius: 50px;
-		font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
-		color: #FFF;
-		font-size: 0.9em;
-		transition: .6s; */
-	}
-}
-
-/* @media only screen and (max-width: 1024px) { */
-
-/* .works {
-		overflow: hidden;
-		width: 100%;
-		height: 530px;
-		background-color: #fff;
-	}
-	
-	.works .images {
-		text-align: center;
-		height: 500px;
-		width: 100%;
-		margin-top: 30px;
-	}
-
-	.works .images a {
-		width: 350px;
-		height: 260px;
-	}
-	
-	.works .images a img {
-		border-radius: 5px;
-		margin-top: 30px;
-		margin-left: 15px;
-		margin-right: 15px;
-		width: 500px;
-		height: 260px;
-	} */
-
-/* } */
