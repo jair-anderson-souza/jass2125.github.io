@@ -30,6 +30,8 @@ a, button {
 .presentation h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 	margin-top: 150px;
+	font-size: 1.8em;
+
 }
 
 .presentation h3 {
