@@ -175,10 +175,8 @@ a, button {
 }
 
 .column {
-	/* margin-top: 5%; */
 	float: left;
 	width: 33.33%;
-	/* height: 300px; */
 	text-align: center;
 }
 
