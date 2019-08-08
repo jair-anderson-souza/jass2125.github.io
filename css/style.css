@@ -59,7 +59,6 @@ a, button {
 	font-size: 0.9em;
 	transition: .6s;
 	margin-bottom: 25vh;
-
 }
 
 .presentation button:hover {
@@ -221,3 +220,74 @@ footer p {
 	color: #fff;
 }
 
+@media only screen and (max-width: 310px) {
+	.presentation h3 {
+		font-size: 2.8em;
+		margin-top: 25vh;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.about {
+		margin-top: 40px;
+	}
+	.about h5 {
+		font-size: 24px;
+	}
+	.about p {
+		font-size: 0.9em;
+	}
+	.works {
+		margin-top: 40px;
+	}
+	.works h5 {
+		font-size: 24px;
+	}
+	.works .images a img {
+		border-radius: 5px;
+		margin-top: 30px;
+		margin-left: 10px;
+		margin-right: 10px;
+		width: 180px;
+		height: 80px;
+	}
+	.stack {
+		margin-top: 40px;
+	}
+	.stack h5 {
+		font-size: 24px;
+	}
+	.stack ol li:first-child {
+		font-weight: 500;
+	}
+	.column {
+		width: 100%;
+		text-align: center;
+	}
+	.findme {
+		margin-top: 40px;
+	}
+	.findme h5 {
+		font-size: 24px;
+	}
+	.findme ol li a img {
+		width: 25px;
+	}
+}
+
+
+@media only screen and (max-width: 375px){
+	.stack {
+		margin-top: 40px;
+	}
+	.stack h5 {
+		font-size: 24px;
+	}
+	.stack ol li:first-child {
+		font-weight: 500;
+	}
+	.column {
+		width: 100%;
+		text-align: center;
+	}
+}
