@@ -139,8 +139,10 @@ a, button {
 	margin-top: 30px;
 	margin-left: 50px;
 	margin-right: 50px;
-	width: 30%;
-	height: 260px;
+	/* width: 30%; */
+	/* height: 260px; */
+	width: 357px;
+	height: 144px;
 }
 
 .stack h5 {
@@ -220,7 +222,13 @@ footer p {
 	color: #fff;
 }
 
-@media only screen and (max-width: 310px) {
+@media only screen and (max-width: 267px) {
+	.findme ol li a img {
+		width: 10px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
 	.presentation h3 {
 		font-size: 2.8em;
 		margin-top: 25vh;
@@ -231,26 +239,12 @@ footer p {
 	.about {
 		margin-top: 40px;
 	}
-	.about h5 {
-		font-size: 24px;
-	}
-	.about p {
-		font-size: 0.9em;
+	h5 {
+		font-size: 22px;
 	}
 	.works {
 		margin-top: 40px;
 	}
-	.works h5 {
-		font-size: 24px;
-	}
-	.works .images a img {
-		border-radius: 5px;
-		margin-top: 30px;
-		margin-left: 10px;
-		margin-right: 10px;
-		width: 180px;
-		height: 80px;
-	}
 	.stack {
 		margin-top: 40px;
 	}
@@ -264,30 +258,21 @@ footer p {
 		width: 100%;
 		text-align: center;
 	}
-	.findme {
-		margin-top: 40px;
-	}
-	.findme h5 {
-		font-size: 24px;
-	}
 	.findme ol li a img {
-		width: 25px;
+		width: 20px;
 	}
 }
 
+@media only screen and (max-width: 389px) {
+	.works .images a img {
+		width: 155px;
+		height: 105px;
+	}
+}
 
-@media only screen and (max-width: 375px){
-	.stack {
-		margin-top: 40px;
-	}
-	.stack h5 {
-		font-size: 24px;
-	}
-	.stack ol li:first-child {
-		font-weight: 500;
-	}
-	.column {
-		width: 100%;
-		text-align: center;
+@media only screen and (max-width: 570px) and (min-width: 389px){
+	.works .images a img {
+		width: 250px;
+		height: 150px;
 	}
 }
